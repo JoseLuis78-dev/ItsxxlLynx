@@ -1,0 +1,70 @@
+/*Estilos para las partes*/
+
+body {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+    background-color: black;
+    color: aliceblue;
+}
+
+header {
+    text-align: center;
+}
+.btn-menu {
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    gap: 20px;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    transition: bacground-color 0.3s;
+}
+
+.btn-menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-menu a.active {
+    background-color: purple;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.btn-menu li a:hover {
+    background-color: purple;
+}
+/* Estilos para los section*/
+
+h1 {
+    text-decoration: dotted;
+    font-size: 3em;
+}
+
+.h2_contacto {
+    text-align: center;
+}
+
+.canal {
+    font-size: medium;
+}
+
+.derechos {
+    align-items: center;
+    margin-left: center;
+    margin-right: center;
+    font-size: large;
+}
+
+/* Estilos para las clases*/
+footer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
